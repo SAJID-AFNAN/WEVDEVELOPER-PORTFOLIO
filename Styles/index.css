@@ -2,11 +2,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+/* nav related style */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .head-title {
@@ -44,4 +45,16 @@ nav a {
     /* font-size: 20px; */
     /* font-weight: 400; */
     text-decoration: none;
+}
+/* header related style */
+.header{
+    background-color: rgb(251, 247, 242);
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+}
+.banner .photo{
+    width: 500px;
 }
