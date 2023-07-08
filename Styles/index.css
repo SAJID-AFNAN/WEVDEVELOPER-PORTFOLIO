@@ -168,8 +168,11 @@ main section{
 .summary {
     display: flex;
     gap: 10px;
+    margin: 30px;
 }
-
+.summary hr{
+    margin: 30px;
+}
 .unique {
     color: #474747;
     font-size: 30px;
@@ -199,4 +202,7 @@ main section{
 }
 .left-summary{
     text-align: left;
+}
+.button{
+    text-align: center;
 }
