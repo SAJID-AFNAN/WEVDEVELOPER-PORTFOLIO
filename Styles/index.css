@@ -131,10 +131,23 @@ main {
 .sub-div {
     /* text-align: center; */
 }
-.short{
+
+.short {
     margin: 0;
 }
 
 .bold {
     margin-top: 10px;
+}
+
+#peru {
+    padding: 30px 150px;
+}
+
+/* Second section start from here */
+.second-sec-div {
+    display: flex;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
 }
