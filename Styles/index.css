@@ -94,7 +94,8 @@ main {
     max-width: 1140px;
     margin: auto;
 }
-main section{
+
+main section {
     margin: 130px 0 0 0;
 }
 
@@ -170,9 +171,11 @@ main section{
     gap: 10px;
     margin: 30px;
 }
-.summary hr{
+
+.summary hr {
     margin: 30px;
 }
+
 .unique {
     color: #474747;
     font-size: 30px;
@@ -197,22 +200,47 @@ main section{
     font-size: 16px;
     margin: 0;
 }
-.cse{
+
+.cse {
     margin: 30px;
 }
-.left-summary{
+
+.left-summary {
     text-align: left;
 }
-.button{
+
+.button {
     text-align: center;
 }
+
 /* footer section start from here */
-footer{
+footer {
     background: #FFF8F3;
     padding: 130px 200px;
     display: flex;
     margin-top: 100px;
+    gap: 50px;
 }
-.footer-section{
-    
+
+.footer-section {
+    width: 50%;
+}
+.social-link a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+footer .section-common{
+    margin-bottom: 30px;
 }
