@@ -206,3 +206,13 @@ main section{
 .button{
     text-align: center;
 }
+/* footer section start from here */
+footer{
+    background: #FFF8F3;
+    padding: 130px 200px;
+    display: flex;
+    margin-top: 100px;
+}
+.footer-section{
+    
+}
